@@ -93,7 +93,7 @@ class NumberBaseBall extends Component {
                 <form onSubmit={this.onSubmitForm}>
                     <input type="text" value={user_value} onChange={this.onChangeInput} placeholder="값을 입력하세요" maxLength={4} />
                 </form>
-                <h1>결과</h1>
+                <h1>결과11111</h1>
 
                 <ul>
                     {input_log.map((val, index) => {
