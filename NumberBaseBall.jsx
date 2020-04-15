@@ -88,7 +88,7 @@ class NumberBaseBall extends Component {
         return (
             <div>
                 <h1>
-                    최대 게임회수 {maxCnt} / 입력 회수 {in_Cnt}
+                    111최대 게임회수 {maxCnt} / 입력 회수 {in_Cnt}
                 </h1>
                 <form onSubmit={this.onSubmitForm}>
                     <input type="text" value={user_value} onChange={this.onChangeInput} placeholder="값을 입력하세요" maxLength={4} />
