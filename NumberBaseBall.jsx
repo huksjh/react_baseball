@@ -72,7 +72,7 @@ class NumberBaseBall extends Component {
                         ball += 1;
                     }
                 }
-                console.log(ball, strike, user_value);
+                //console.log(ball, strike, user_value);
 
                 this.setState((prevState) => {
                     return {
@@ -94,7 +94,7 @@ class NumberBaseBall extends Component {
                     <input type="text" value={user_value} onChange={this.onChangeInput} placeholder="값을 입력하세요" maxLength={4} />
                 </form>
                 <h1>결과</h1>
-                {console.log(input_log.length)}
+
                 <ul>
                     {input_log.map((val, index) => {
                         return <Try tyuinfo={val} idx={index} key={index} />;
